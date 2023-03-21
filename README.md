@@ -195,9 +195,8 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- [ ] **Editing option**
-- [ ] **Adding task**
-- [ ] **Deleting task**
+- [ ] **Editing Option**
+- [ ] **Reset Option**
 - [ ] **recycle**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
