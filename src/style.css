@@ -1,3 +1,4 @@
-body {
-  background-color: yellow;
+.send {
+  width: fit-content;
+  align-self: end;
 }
