@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development --open"
   },
   "repository": {
     "type": "git",
@@ -20,12 +20,14 @@
   },
   "homepage": "https://github.com/bronnie313/leaderboard#readme",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.21.2",
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
     "hint": "^7.1.5",
+    "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
@@ -36,7 +38,7 @@
     "webpack-dev-server": "^4.13.1"
   },
   "dependencies": {
-    "html-webpack-plugin": "^5.5.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "main": "webpack.config.js"
 }

@@ -1,4 +1,37 @@
 .send {
   width: fit-content;
   align-self: end;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.refresh {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.scores {
+  border: 1.5px solid;
+  width: 100%;
+  height: 400px;
+  overflow: scroll;
+}
+
+li {
+  font-family: 'poppins', sans-serif;
+  padding: 10px;
+  color: black;
+}
+
+li:nth-child(even) {
+  background-color: lightgray;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 59% 35%;
+  gap: 40px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
