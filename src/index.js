@@ -3,7 +3,7 @@ import addData from './modules/addData.js';
 
 // Get score data from API endpoint
 const getData = async () => {
-  const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/4hUxjWxbhx8eZYEYlSSm/scores/');
+  const res = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/OhdtT0dFv50nLaIMDOe2/scores/');
   const data = await res.json();
   return data.result;
 };
@@ -12,9 +12,10 @@ const getData = async () => {
 const displayScore = (data) => {
   const scores = document.querySelector('.scores');
   scores.innerHTML = '';
+  data = data.sort((a, b) => b.score - a.score);
   data.forEach(({ user, score }) => {
     const li = document.createElement('li');
-    li.textContent = `${user}: ${score}`;
+    li.innerHTML = `${user} : ${score}`;
     scores.appendChild(li);
   });
 };
