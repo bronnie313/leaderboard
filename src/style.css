@@ -13,6 +13,7 @@
   border-radius: 6px;
   background-color: initial;
   box-shadow: 0 5px 10px -1px hsla(240, 7%, 100%, 1);
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 input {
@@ -57,7 +58,7 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: seagreen;
+  background-color: rgb(66, 70, 68);
   border-radius: 10px;
 }
 
