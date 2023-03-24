@@ -9,21 +9,21 @@
 <script defer src="main.js"></script></head>
 <body>
     <header class="container mt-4">
-        <h1>Leaderboard</h1>
+        <h1 class="header">Leaderboard</h1>
     </header>
-    <article class="container flex-wrap p-3 border border-dark rounded-3">
+    <article class="container mt-4 p-3 border border-dark rounded-3">
         <section>
             <div class="d-flex justify-content-between gap-3 align-items-center">
-                <h3>Recent Scores</h3>
+                <h3 class="recent-scores">Recent Scores</h3>
                 <button type="button" class="btn btn-outline-dark btn-sm refresh">Refresh</button>
             </div>
-            <ul class="scores mt-3"></ul>
+            <ol class="scores mt-3"></ol>
         </section>
         <section>
             <h3>Add your score</h3>
             <form  id="form" class="d-flex flex-column gap-2 mt-3 form" action="">
-                <input id="user" type="text" name="user" placeholder="Your name">
-                <input id="score" type="text" name="score" placeholder="Your score">
+                <input id="user" type="text" name="user" placeholder="Your name" required>
+                <input id="score" type="number" name="score" placeholder="Your score" required>
                 <button id="send" type="submit" class="btn btn-outline-dark btn-sm send">submit</button>
             </form>
         </section>
