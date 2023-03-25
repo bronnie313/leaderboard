@@ -64,6 +64,10 @@ After you're finished please remove all the comments and instructions!
 
 This Project involves creating a leaderboard which is a list of scores or grades or rankings for a particular game or competition. The application typically allows users to submit their scores or rankings, which are then added to the leaderboard in real-time.
 
+## Screenshot
+
+![lead](https://user-images.githubusercontent.com/37089236/227707401-ea82bc89-8bef-44e5-9967-eece04b1acf6.JPG)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
